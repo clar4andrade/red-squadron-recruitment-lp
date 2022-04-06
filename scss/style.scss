@@ -1,4 +1,9 @@
+//variables
 $primary: #B40419;
+
+//button
+$btn-border-radius: 3rem;
+$input-btn-border-width: 2px;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -10,6 +15,14 @@ section, footer {
 svg {
     stroke: $primary;
 }
+
+.btn:hover {
+    background-color: rgba($color: #940101, $alpha: 0);
+    box-shadow: 1px 2px 14px 5px rgba(255,0,45,0.63);
+} 
+
+    
+
 
 
 
